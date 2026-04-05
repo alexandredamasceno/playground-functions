@@ -1,13 +1,4 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do
-Manual da Pessoa Estudante da Trybe.
-
 # Boas vindas ao repositório do Projeto Playground Functions!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #VQV 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma `branch` específica e um _Pull Request_ para colocar seus códigos.
 
 # Sumário
 
@@ -55,120 +46,23 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - Utilizar o comando for/in ;
 - Utilizar funções para organizar e estruturar o seu código;
 
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório.
-
-Este Pull Request deverá conter os arquivos `challenges.js` e `challenges2.js` com suas funções implementadas.
-
-Todas as funções já estão declaradas nos arquivos `challenges.js` e `challenges2.js`. Você pode criar outras funções para auxiliarem as já existentes. Contudo **Não altere o nome das funções que já existem**.
-
-**Os parâmetros das funções já existentes podem e devem ser alterados.**
-
-## ⚠️ É importante que seus arquivos não tenham o nome alterado! ⚠️
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
 ## O que deverá ser desenvolvido
 
-- Você vai implementar funções a partir de requisitos.
-- Você vai desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
-
-## Data de Entrega
-
-  - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `09/03/2021 - 14:00h`.
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
-
-1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-010-b-project-playground-functions.git`.
-  * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-010-b-project-playground-functions`
-
-2. Instale as dependências e inicialize o projeto
-  * Instale as dependências:
-    * npm install
-
-3. Crie uma branch a partir da branch `master`
-  * Verifique que você está na branch `master`
-    * Exemplo: `git branch`
-  * Se não estiver, mude para a branch `master`
-    * Exemplo: `git checkout master`
-  * Agora, crie uma branch onde você vai guardar os `commits` do seu projeto
-    * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    * Exemplo: `git checkout -b joaozinho-project-playground-functions`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-  * Verifique que as mudanças ainda não estão no _stage_
-    * Exemplo: `git status` (devem aparecer listados os novos arquivos em vermelho)
-  * Adicione o novo arquivo ao _stage_ do Git
-      * Exemplo:
-        * `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        * `git status` (devem aparecer listados os arquivos em verde)
-  * Faça o `commit` inicial
-      * Exemplo:
-        * `git commit -m 'iniciando o projeto. VAMOS COM TUDO :rocket:'` (fazendo o primeiro commit)
-        * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-  * Usando o exemplo anterior: `git push -u origin joaozinho-project-playground-functions`
-
-6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-010-b-project-playground-functions/pulls)
-  * Clique no botão verde _"New pull request"_
-  * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  * Clique no botão verde _"Create pull request"_
-  * Adicione uma descrição para o _Pull Request_, um título que o identifique, e clique no botão verde _"Create pull request"_. Crie da seguinte forma: `[JOAOZINHO] Projeto Playground Functions`
-  * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-010-b-project-playground-functions/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-## Durante o desenvolvimento
-
-* Faça `commits` das alterações que você fizer no código regularmente
-
-* Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-* Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-  5. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
+- Implementar funções a partir de requisitos.
+- Desenvolver funções seguindo os requisitos especificados para o correto comportamento de cada uma delas.
 
 ---
 
 ## Linter
 
-Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento nós utilizamos neste projeto o linter `ESLint`. Para rodar o linter localmente no seu projeto, execute o comando abaixo:
+Para garantir a qualidade do seu código de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento eu utilizarei neste projeto o linter `ESLint`. Para rodar o linter localmente no meu projeto:
 
 ```bash
 npm run lint
 ```
-
-⚠ **NESTE PROJETO O ESLINT NÃO SERÁ AVALIADO. VOCÊ PODE RODAR O TESTE LOCALMENTE E FAZER AS CORREÇÕES SE DESEJAR!** ⚠
-
 ---
 
 ## Requisitos do projeto
-
-## ⚠️ Leia-os atentamente e siga à risca o que for pedido. Não altere o nome de nenhuma função. ⚠️
-
-O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
----
-
-### 👀 Observações importantes:
-
-* Para verificar se a sua função foi criada corretamente você pode instalar a extensão `code runner` no _VSCode_.
-
----
 
 ### 1 - Crie uma função usando o operador &&
 
